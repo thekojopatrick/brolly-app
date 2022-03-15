@@ -25,7 +25,7 @@ const index = () => {
         >
           teamwork@brolly.africa
         </a>
-        <Button text="Go to Home try reloading" />
+        <Button animate={true} text="Go to Home try reloading" />
       </section>
     </Layout>
   )
