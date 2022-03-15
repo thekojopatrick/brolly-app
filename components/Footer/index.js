@@ -40,21 +40,21 @@ const Footer = () => {
             <li>
               <FooterLink
                 href="mailto:hello@brolly.africa"
-                icon="Email"
+                icon="email"
                 text="hello@brolly.africa"
               />
             </li>
             <li>
               <FooterLink
                 href="tel:+233 201 335 141"
-                icon="Phone"
+                icon="phone"
                 text="+233 201 335 141"
               />
             </li>
             <li className="lg:w-4/5">
               <FooterLink
                 href="https://goo.gl/maps/8M4u89m84QCk3HnaA"
-                icon="Location"
+                icon="location"
                 target={'_target'}
                 itemStart={true}
                 text="No. 19 Kofi Annan Street, Airport Residential Area. Accra, Ghana"
@@ -82,23 +82,13 @@ const Footer = () => {
                 <FooterLink href="/terms" text="Terms & Conditions" />
                 <FooterLink href="/cookies" text="Cookies Policy" />
               </li>
-              <li className='my-6 text-gray-300'>© 2021 Brolly. All rights reserved</li>
+              <li className="my-6 text-gray-300">
+                © 2021 Brolly. All rights reserved
+              </li>
               <li className="flex flex-wrap gap-4 items-center">
-                <SocialLink
-                  href="/instagram"
-                  icon={'instagram'}
-                  iconUrl="/img/instagram-icon.svg"
-                />
-                <SocialLink
-                  href="/twitter"
-                  icon={'twitter'}
-                  iconUrl="/img/instagram-icon.svg"
-                />
-                <SocialLink
-                  href="/instagram"
-                  icon={'instagram'}
-                  iconUrl="/img/instagram-icon.svg"
-                />
+                <SocialLink href="/instagram" icon={'instagram'} />
+                <SocialLink href="/twitter" icon={'twitter'} />
+                <SocialLink href="/instagram" icon={'instagram'} />
               </li>
             </nav>
           </div>
